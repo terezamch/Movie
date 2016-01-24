@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+.mailform {
+  position: relative;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mailform fieldset {
+  border: none;
+}
+.mailform * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mailform label {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.mailform label:first-child {
+  margin-top: 0;
+}
+.mailform label input, .mailform label select, .mailform label textarea {
+  display: block;
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 15px 20px 15px 10px;
+  line-height: 22px;
+  color: #747a7c;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #31383a;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+}
+.mailform label input:-moz-placeholder, .mailform label select:-moz-placeholder, .mailform label textarea:-moz-placeholder {
+  color: #747a7c;
+  opacity: 1;
+}
+.mailform label input::-webkit-input-placeholder, .mailform label select::-webkit-input-placeholder, .mailform label textarea::-webkit-input-placeholder {
+  color: #747a7c;
+  opacity: 1;
+}
+.mailform label input::-moz-placeholder, .mailform label select::-moz-placeholder, .mailform label textarea::-moz-placeholder {
+  color: #747a7c;
+  opacity: 1;
+}
+.mailform label input:-ms-input-placeholder, .mailform label select:-ms-input-placeholder, .mailform label textarea:-ms-input-placeholder {
+  color: #747a7c;
+  opacity: 1;
+}
+.mailform label textarea {
+  resize: vertical;
+  overflow: auto;
+  height: 55px;
+  font-weight: 300;
+}
+.mailform label.textarea {
+  margin-top: 45px;
+}
+@media (min-width: 992px) {
+  .mailform label.textarea {
+    margin-top: 88px;
+  }
+}
+@media (max-width: 1365px) {
+  .mailform label {
+    margin-top: 30px;
+  }
+}
+
+
